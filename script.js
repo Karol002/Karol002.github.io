@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://tasks-prod-taskcrud-tkyj77.mo5.mogenius.io/v1/tasks';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello';
+  const trelloApiRoot = 'http://tasks-prod-taskcrud-tkyj77.mo5.mogenius.io/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
